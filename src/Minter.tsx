@@ -60,11 +60,9 @@ export default function Minter(props: MinterProps){
 
             showInfo("Creating token")
             nft.createToken(props.wallet).then((res) => {
-                console.log(res)
-                // if ("asset-index" in res) 
-                //     props.history.push("/nft/" + res['asset-index'])
+                if ("asset-index" in res) 
+                    props.history.push("/nft/" + res['asset-index'])
             }).catch((err)=>{ 
-                console.log(res)
                 showErrorToaster("Failed to create token: "+ err)
                 setLoading(false)
             })
