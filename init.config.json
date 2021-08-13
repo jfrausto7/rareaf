@@ -13,16 +13,16 @@
     },
     "ipfs":{
         "display":"https://cloudflare-ipfs.com/ipfs/",
-        "token":"YOUR nft.storage TOKEN" 
+        "token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweDBCMjQ1YWM0NjE2NTg1YjcyYkUwNDc2MDBENEVDN0Q4YzM4NEFiZGYiLCJpc3MiOiJuZnQtc3RvcmFnZSIsImlhdCI6MTYyODg4NjgzMDY4MiwibmFtZSI6InR5cGVzaG9wIn0.nOB4CCK1-2EvuViPjwTbdanS0bGnkRFMJNucZdsnVh4" 
     },
     "explorer":"algoscan.app",
     "application": {
-        "admin_addr": "YOUR ADDRESS",
+        "admin_addr": "L7LYCPN5TYKLP3OBZIQN5L6BSU2ZCT5O7FFWSOGHTRKQUHISRTQCZA6GJM",
         "app_id": 0,
         "price_id": 0,
         "owner_addr": "",
-        "name": "YOUR APP NAME",
-        "unit": "YOUR APP SHORT NAME (3 char)",
+        "name": "TypeShop",
+        "unit": "TYP",
         "fee_amt": 10000,
         "tags": [
         ],

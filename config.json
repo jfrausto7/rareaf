@@ -13,16 +13,16 @@
     },
     "ipfs":{
         "display":"https://cloudflare-ipfs.com/ipfs/",
-        "token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnaXRodWJ8NTIwMjM2IiwiaXNzIjoibmZ0LXN0b3JhZ2UiLCJpYXQiOjE2MTc5MTEzNTMzOTQsIm5hbWUiOiJkZWZhdWx0In0.3Hkh9IHXK6OgmXBUsCK12ca0Iit9-dJgqdDtKcQiYZQ" 
+        "token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweDBCMjQ1YWM0NjE2NTg1YjcyYkUwNDc2MDBENEVDN0Q4YzM4NEFiZGYiLCJpc3MiOiJuZnQtc3RvcmFnZSIsImlhdCI6MTYyODg4NjgzMDY4MiwibmFtZSI6InR5cGVzaG9wIn0.nOB4CCK1-2EvuViPjwTbdanS0bGnkRFMJNucZdsnVh4" 
     },
     "explorer":"algoscan.app",
     "application": {
-        "admin_addr": "7LQ7U4SEYEVQ7P4KJVCHPJA5NSIFJTGIEXJ4V6MFS4SL5FMDW6MYHL2JXM",
+        "admin_addr": "L7LYCPN5TYKLP3OBZIQN5L6BSU2ZCT5O7FFWSOGHTRKQUHISRTQCZA6GJM",
         "app_id": 21963064,
         "price_id": 21963098,
         "owner_addr": "RRD635EQSU7JNBXP77KR6UKJSN5XSKM4XU3GCLY757KNJRJ7QTTSEFEK2U",
-        "name": "RareAF",
-        "unit": "raf",
+        "name": "TypeShop",
+        "unit": "TYP",
         "fee_amt": 10000,
         "tags": [
             {
