@@ -23,7 +23,7 @@ export class NFT {
     async createToken(wallet: Wallet) {
         const creator = wallet.getDefaultAccount()
         const suggested = await getSuggested(10)
-        const create_txn = new Transaction(await get_asa_create_txn(suggested, creator, NFT.metaUrl(this.url)))
+        const create_txn = new Transaction(await get_asa_create_txn(suggested, creator, NFT.resolveUrl(this.url)))
         create_txn.assetName = NFT.arc3AssetName(this.metadata.name)
         create_txn.assetMetadataHash = mdhash(this.metadata)
         const [s_create_txn] = await wallet.signTxn([create_txn])
