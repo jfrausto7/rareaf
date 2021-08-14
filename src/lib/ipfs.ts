@@ -14,8 +14,7 @@ export async function storeNFT(file: File, md: NFTMetadata): Promise<any> {
 }
 
 export async function getNFTFromMetadata(url: string): Promise<NFT> {
-    if (url.substring(url.length - 4) !== "json") url = url + "/metadata.json";
-    const data =  await get_file(url)
+    const data =  await get_file(NFT.resolveUrl(url))
 
     if(data.toString() == 'null' || data == undefined) return undefined;
 
