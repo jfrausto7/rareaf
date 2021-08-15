@@ -1,43 +1,55 @@
 {
-    "domain": "YOUR DOMAIN",
-    "algod":{
-        "server":"https://testnet.algoexplorerapi.io",
-        "port":0,
-        "token":"",
+    "domain": "rare.af",
+    "algod": {
+        "server": "https://testnet.algoexplorerapi.io",
+        "port": 0,
+        "token": "",
         "network": "TestNet"
     },
     "indexer": {
-        "server":"https://testnet.algoexplorerapi.io/idx2",
-        "port":0,
-        "token":""
+        "server": "https://testnet.algoexplorerapi.io/idx2",
+        "port": 0,
+        "token": ""
     },
-    "ipfs":{
-        "display":"https://cloudflare-ipfs.com/ipfs/",
-        "token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweDBCMjQ1YWM0NjE2NTg1YjcyYkUwNDc2MDBENEVDN0Q4YzM4NEFiZGYiLCJpc3MiOiJuZnQtc3RvcmFnZSIsImlhdCI6MTYyODg4NjgzMDY4MiwibmFtZSI6InR5cGVzaG9wIn0.nOB4CCK1-2EvuViPjwTbdanS0bGnkRFMJNucZdsnVh4" 
+    "ipfs": {
+        "display": "https://cloudflare-ipfs.com/ipfs/",
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweDBCMjQ1YWM0NjE2NTg1YjcyYkUwNDc2MDBENEVDN0Q4YzM4NEFiZGYiLCJpc3MiOiJuZnQtc3RvcmFnZSIsImlhdCI6MTYyODg4NjgzMDY4MiwibmFtZSI6InR5cGVzaG9wIn0.nOB4CCK1-2EvuViPjwTbdanS0bGnkRFMJNucZdsnVh4"
     },
-    "explorer":"algoscan.app",
+    "explorer": "algoscan.app",
     "application": {
-        "admin_addr": "RUAUDXLW47ZAYLAXH6L732BZUJRM3OMTCJXO2WRRFUXFQ3QISXMRXHXITI",
-        "app_id": 0,
-        "price_id": 0,
-        "owner_addr": "",
+        "admin_addr": "T2TXCPLKRPGXM34UMQGOZRDEVV4SB2NROS4W7DMIPOKCFCWOLWJKOZZ25Q",
+        "app_id": 22753975,
+        "price_id": 22754028,
+        "owner_addr": "XNT3TFE4J6447TQU2UK6PB7P35DV272P7OPYSGQSC2F6WUNTNA3YC2HKOM",
         "name": "TypeShop",
         "unit": "TYP",
-        "fee_amt": 10000,
+        "fee_amt": 100,
         "tags": [
+            {
+                "name": "image",
+                "id": 22040659
+            },
+            {
+                "name": "generative-art",
+                "id": 22040679
+            },
+            {
+                "name": "gif",
+                "id": 22040709
+            }
         ],
-        "listing_hash": "",
+        "listing_hash": "b64(i1gAmTr9G9qWDXAABdwtb/wW5EMwD6eGWZHG1IJhPxc=)",
         "seed_amt": 5000000,
         "max_price": 10000000000
     },
-    "contracts":{
-        "approval":"platform-approval.teal",
-        "clear":"platform-clear.teal",
-        "listing":"listing.teal",
-        "listing-positions":"listing.tmpl.teal.json"
+    "contracts": {
+        "approval": "platform-approval.teal",
+        "clear": "platform-clear.teal",
+        "listing": "listing.teal",
+        "listing-positions": "listing.tmpl.teal.json"
     },
-    "dev":{ 
-        "debug_txns":false,
-        "accounts":{ }
+    "dev": {
+        "debug_txns": false,
+        "accounts": {}
     }
 }
